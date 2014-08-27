@@ -9,6 +9,11 @@ If you install this package from source, you must also run
 additionally symlink the ```timetrap-to-jira.php``` executable to into a
 ```bin``` folder on your PATH.
 
+## Time rounding
+All times are automatically rounded to 15 minute blocks before transfer. Values
+are rounded down when below 5 minutes and rounded up above. If a time entry is
+small than 15 minutes, it is always rounded up.
+
 ## Automatic issue linking
 This tool has automatic issue number recognition support. Simply place the
 corresponding issue number prefixed with an ```@``` in your log messages. That
