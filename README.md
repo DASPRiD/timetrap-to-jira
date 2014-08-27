@@ -2,9 +2,7 @@
 
 This is a simple utility to transfer your times logged via timetrap to JIRA. To
 set it up, copy the file ```example.timetrap-to-jira.json``` to the following
-location and fill in all values:
-
-```~/.timetrap-to-jira```
+location and fill in all values: ```~/.timetrap-to-jira.json```.
 
 If you install this package from source, you must also run
 ```composer install``` to install all dependencies. After that, you can
