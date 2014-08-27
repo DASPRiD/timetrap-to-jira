@@ -1,0 +1,11 @@
+{
+    "db": "~/.timetrap.db",
+    "host": "https://jira.your-company.com",
+    "username": "your-username",
+    "password": "your-password",
+    "sheets": [
+        "sheet-1",
+        "sheet-2",
+        "..."
+    ]
+}
