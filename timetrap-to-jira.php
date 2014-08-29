@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-require_once 'vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 $configPath = str_replace('~', posix_getpwuid(posix_getuid())['dir'], '~/.timetrap-to-jira.json');
 
