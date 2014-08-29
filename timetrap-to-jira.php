@@ -60,7 +60,7 @@ foreach ($entries as $entry) {
 
     list($hours, $minutes, $seconds) = explode(':', $start->diff($end)->format('%H:%I:%S'));
 
-    if ($hours === 0 && $minutes < 15) {
+    if ($hours == 0 && $minutes < 15) {
         $minutes = 15;
     } else {
         $x = floor($minutes / 15) * 15;
